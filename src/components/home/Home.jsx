@@ -24,8 +24,11 @@ const Home = () => {
 
   return (
     <div className={`${classChange} h-[1080px] overflow-hidden`} id="home">
-      <Navbar />
+      {/* <Navbar /> */}
+
       <Header />
+
+      
     </div>
   );
 };

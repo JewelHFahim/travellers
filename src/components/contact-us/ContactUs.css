@@ -1,0 +1,12 @@
+.contact-us {
+  background-image: url("../../assets/Indonesia/indonesiaBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.bg-gradient{
+    background: #001E23;
+background: linear-gradient(180deg, #001E23 5%, rgba(14,168,148,0) 45%, #001E23 100%);
+}

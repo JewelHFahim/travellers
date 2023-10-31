@@ -54,10 +54,10 @@ const Header = () => {
   const classChange = handleClass(activeSlideIndex);
 
   return (
-    <div className="flex items-center mt-[40px]">
+    <div className="flex justify-center items-center mt-[40px]">
       
       {/* Text Content */}
-      <div className="w-1/2 pl-[140px]">
+      <div className="w-1/2 pl-[140px] sm:hidden md:hidden lg:hidden xl:block">
         
         {classChange}
 
@@ -82,6 +82,8 @@ const Header = () => {
           <FaFacebookF />
         </div>
       </div>
+
+
     </div>
   );
 };
